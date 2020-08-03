@@ -161,17 +161,6 @@ $(window).scroll(function() {
   });
 
   $(window).scroll(function() {
-    if ($(this).scrollTop()>=100) {
-      $('#prodact').fadeIn('slow','linear');
-    }
-    else {
-      // длительность анимации - 'fast'
-      // тип анимации -  'swing'
-      $('#prodact').fadeOut('slow','swing');
-    }
-  });
-
-  $(window).scroll(function() {
     if ($(this).scrollTop()>=800) {
       $('#galare').fadeIn('slow','linear');
     }
